@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+}
+
+/***** Header *****/
+header .picture {
+  width: 100%;
+  height: 400px;
+}
+
+/***** MAIN *****/
+main {
+  margin: 50px;
+}
+
+main h1 {
+  margin: 20px 0;
+}
+
+main section {
+  margin: 20px 0;
+}
+
+main section ul {
+  list-style: none;
+}
+
+main section ul .chceck_ikon_text {
+  margin-bottom: 25px;
+}
+
+main section ul .chceck_ikon_text img {
+  float: left;
+}
+
+main section ul .chceck_ikon_text p {
+  margin-left: 80px;
+  line-height: 50px;
+}
+
+main section .big_text {
+  font-size: 1.5rem;
+}
+
+main section ol {
+  list-style: none;
+}
+
+main section ol .input_radio {
+  margin: 20px 0;
+}
+
+main section ol .input_radio input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+main section ol .input_radio .input_radio_button {
+  width: 40px;
+  height: 40px;
+  float: left;
+  border-radius: 50%;
+  border: 2px solid #999;
+}
+
+main section ol .input_radio .input_radio_button:checked {
+  border: 10px solid blue;
+  background-color: white;
+}
+
+main section ol .input_radio .input_radio_text {
+  font-size: 25px;
+  margin-left: 70px;
+  line-height: 40px;
+}
+
+main .line {
+  border: 5px solid blue;
+  margin: 50px 0;
+}
+
+/***** FOOTER *****/
+footer {
+  height: 150px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(red), to(yellow));
+  background-image: linear-gradient(180deg, red, yellow);
+}
+/*# sourceMappingURL=style.css.map */
